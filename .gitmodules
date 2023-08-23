@@ -1,0 +1,4 @@
+[submodule "marktext"]
+	path = docs
+	url = https://github.com/marktext/marktext.git
+	branch = develop
