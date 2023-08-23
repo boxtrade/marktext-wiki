@@ -93,18 +93,16 @@
 
          //别名
          alias: {
-                '/.*/_sidebar.md': '/_sidebar.md',
-                '/_sidebar.md': 'https://raw.githubusercontent.com/marktext/marktext/develop/docs/README.md',
-                '/(.*)':
-                    'https://raw.githubusercontent.com/marktext/marktext/develop/docs/$1',
+                '/_sidebar.md': 'README.md',
+
         },
         // Even can load files from other repo
         basePath:
-          'https://raw.githubusercontent.com/marktext/marktext/develop/docs/',
+          'docs/docs',
 
         // Or use the readme in your repo
         homepage:
-          'https://raw.githubusercontent.com/marktext/marktext/develop/docs/README.md',
+          'README.md',
 
          // 页脚信息插件
         loadFooter: true,
